@@ -52,12 +52,12 @@ timeing();
 
 
 
-let mathredom = Math.floor(Math.random() * 10 * 10);
 
 
 var hit = 0;
 var hiting = function () {
-    hit = document.getElementById("getnumber").textContent = mathredom;
+    let mathredom = Math.floor(Math.random() * 10 * 10);
+    hit = document.getElementById("getnumber").textContent=mathredom;
 
 
 }
@@ -72,11 +72,7 @@ var circle = function () {
 
     for (i = 0; i < 108; i++) {
         let mathredom1 = Math.floor(Math.random() * 10 * 10);
-        // if (i = mathredom2) {
-        //     bhg += '<button  style="background-color: red; border-radius: 50%; width: 50px; height: 50px; font-size: 20px;"">' + hit + '</button> '
-        // }
-        // else {
-            // let mathredom1 = Math.floor(Math.random() * 10*10);
+       
             bhg += '<button  style="background-color: red; border-radius: 50%; width: 50px; height: 50px; font-size: 20px;"">' + mathredom1 + '</button> '
 
         // }
@@ -97,12 +93,13 @@ var scoreing = function () {
     
         document.querySelector("#bubbles").addEventListener("click", (e) => {
     
-            if (e.target.textContent = hit) {
+            if (e.target.textContent == hit) {
     
                 score = score + 10;
-                hiting();
                 document.querySelector("#getscore").textContent=score;
+                hiting();
                 timeing();
+                circle();
             }
             else {
                 hiting();
