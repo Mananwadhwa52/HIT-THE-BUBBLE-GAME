@@ -1,0 +1,173 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: darkmagenta;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#main {
+    height: 85vh;
+    width: 85vw;
+    border: 4px dotted red;
+    position: relative;
+    border-radius: 40px;
+    background-color: wheat;
+    justify-items: center;
+}
+
+#game_title {
+    height: 3vh;
+
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    width: 30vw;
+    background-color: bisque;
+}
+/* 
+#game-name {
+    text-align: center;
+    text-decoration: underline;
+    align-items: center;
+    color: blueviolet;
+    font-size: medium;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+} */
+
+#game_score_board {
+    /* position: absolute; */
+    width: 90%;
+    height: 8vh;
+    margin-top: 2vh;
+    border-radius: 10px;
+    margin-left: auto;
+    place-items: center;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: aquamarine;
+}
+
+#number {
+    height: 75%;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: chartreuse;
+    border-radius: 10px;
+
+}
+
+#time {
+
+    justify-content: center;
+    align-items: center;
+    /* color: red; */
+    /* font-weight: 700; */
+    display: flex;
+    /* font-size: larger; */
+    height: 75%;
+    width: 200px;
+    background-color: chartreuse;
+    border-radius: 10px;
+    /* text-align: center; */
+}
+
+#score {
+    /* color: red; */
+    /* font-weight: 700; */
+    height: 75%;
+    /* font-size: larger; */
+    width: 200px;
+    background-color: chartreuse;
+    justify-content: center;
+    align-items: center;
+    /* color: red; */
+    /* font-weight: 700; */
+    display: flex;
+    border-radius: 10px;
+    /* text-align: center; */
+}
+
+#gettime {
+
+    text-align: center;
+    font-size: larger;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+
+    color: rgb(189, 116, 20);
+    /* color: rgb(189, 116, 20); */
+    margin-left: 10px;
+    background-color: aliceblue;
+    font-weight: 700;
+    width: 50px;
+    height: 80%;
+
+    /* gap: 20px; */
+    border-radius: 10px;
+}
+
+#getnumber {
+    height: 80%;
+    text-align: center;
+
+    justify-content: center;
+    align-items: center;
+    /* justify-content: center; */
+    display: flex;
+    width: 50px;
+    background-color: aliceblue;
+    color: rgb(189, 116, 20);
+    font-weight: 700;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 10px;
+    font-size: larger;
+}
+
+/* color: red; */
+#getscore {
+    justify-content: center;
+    align-items: center;
+    /* justify-content: center; */
+    display: flex;
+    text-align: center;
+    margin-left: 10px;
+    width: 50px;
+    background-color: aliceblue;
+    color: rgb(189, 116, 20);
+    border-radius: 10px;
+    height: 80%;
+
+    /* text-align: center; */
+    font-size: larger;
+    /* color: red; */
+    font-weight: 700;
+}
+
+#bubbles{https://meet.google.com/wxj-hnsj-jya
+
+    width: 80%;
+    height: 50%;
+    margin-top: auto;
+    padding: 70px;
+    border-radius: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 4px;
+
+    background-color: aliceblue;
+}
